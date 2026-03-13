@@ -2,15 +2,14 @@ import requests
 import re
 import unicodedata
 
-SOURCE_URL = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_kodi.m3u"
+SOURCE_URL = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
 OUTPUT_FILE = "lista2.m3u"
-NEW_IP = "167.1.0.1"
+NEW_IP = "127.0.0.1:8621"
 
 # Grupos que se eliminan por completo
 REMOVE_GROUPS = ["bundesliga","eventos","futbol int","motor","nba","otros","sport tv","tdt","tenis","ufc","liga endesa"]
 
 # Canales específicos que se eliminan
-# He añadido "solo eventos" para borrar los canales de la 1RFEF que no quieres
 REMOVE_CHANNELS = [
     "teledeporte","FOX PREMIUM UFC","SKY SPORTS ARENA","REAL MADRID TV",
     "SKY SPORTS CRICKET","SKY SPORTS MAIN EVENT","TNT SPORTS","DAZN F1 4K",
@@ -95,20 +94,18 @@ active_groups = set()
 
 for ch in channels:
     header = ch[0]
-    # Extraemos el nombre completo para filtrar
     full_name_raw = header.split(",")[-1].split("-->")[0].strip()
     
-    # FILTRO DE CANALES: Si el nombre contiene algo de REMOVE_CHANNELS, saltamos
     if any(clean_text(x) in clean_text(full_name_raw) for x in REMOVE_CHANNELS):
         continue
         
-    # FILTRO DE GRUPOS
     if any(f'group-title="{g.lower()}' in header.lower() for g in REMOVE_GROUPS):
         continue
 
     prio, num, g_key = get_priority(header)
     if prio is not None:
-        new_block = [re.sub(r'\d+\.\d+\.\d+\.\d+', NEW_IP, l) for l in ch]
+        # Sustitución mejorada de IP:Puerto
+        new_block = [re.sub(r'\d+\.\d+\.\d+\.\d+(?::\d+)?', NEW_IP, l) for l in ch]
         final_list.append({'block': new_block, 'prio': prio, 'num': num, 'g_key': g_key})
         active_groups.add(g_key)
 
@@ -116,7 +113,6 @@ final_list.sort(key=lambda x: (x['prio'], x['num']))
 
 # --- ESCRITURA ---
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    # Cabecera M3U con los nombres exactos que pediste
     f.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/refs/heads/master/guiatv.xml,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml" actualizar="3600"\n')
     f.write('#EXTVLCOPT:almacenamiento en caché de red=1000\n')
     
@@ -134,4 +130,4 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for line in item['block']:
             f.write(line + "\n")
 
-print(f"Lista creada. Se han eliminado los canales '(SOLO EVENTOS)'.")
+print(f"Lista actualizada con IP {NEW_IP} y filtros aplicados.")
