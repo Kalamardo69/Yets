@@ -4,7 +4,7 @@ import unicodedata
 
 SOURCE_URL = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
 OUTPUT_FILE = "lista2.m3u"
-NEW_IP = "192.168.18.41:6878"
+NEW_IP = "5.154.88.187:6878"
 
 # Grupos que se eliminan por completo
 REMOVE_GROUPS = ["bundesliga","eventos","futbol int","motor","nba","otros","sport tv","tdt","tenis","ufc","liga endesa"]
