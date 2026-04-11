@@ -35,8 +35,6 @@ http://192.168.18.41:6878/ace/getstream?id=a231b2fa1f7754433efeb8bb8d69d7b9096dc
 http://192.168.18.41:6878/ace/getstream?id=c9321006921967d6258df6945f1d598a5c0cbf1e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 FHD 1176 --> NEW ERA
 http://192.168.18.41:6878/ace/getstream?id=caa631e8850e3eb5e7c039063dd8a339ccef1176
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 d3b8 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 ce84 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=b45cfe568e106a7df65c950805d6f123c989ce84
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 33fe --> SPORT TV
