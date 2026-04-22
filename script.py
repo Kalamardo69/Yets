@@ -4,7 +4,8 @@ import unicodedata
 
 SOURCE_URL = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
 OUTPUT_FILE = "lista2.m3u"
-NEW_IP = "192.168.18.41:6878"
+# La URL base que precede al ID
+BASE_URL = "http://192.168.18.41:6878/ace/getstream?id="
 
 # Grupos que se eliminan por completo
 REMOVE_GROUPS = ["bundesliga","eventos","futbol int","motor","nba","otros","sport tv","tdt","tenis","ufc","liga endesa"]
@@ -76,6 +77,7 @@ try:
     r.raise_for_status()
     lines = r.text.splitlines()
 except:
+    print("Error al descargar la lista fuente.")
     exit()
 
 channels = []
@@ -104,8 +106,15 @@ for ch in channels:
 
     prio, num, g_key = get_priority(header)
     if prio is not None:
-        # Sustitución mejorada de IP:Puerto
-        new_block = [re.sub(r'\d+\.\d+\.\d+\.\d+(?::\d+)?', NEW_IP, l) for l in ch]
+        new_block = []
+        for l in ch:
+            if "acestream://" in l:
+                # REEMPLAZAMOS 'acestream://' por la URL de tu servidor
+                # Esto deja solo el ID al final de la URL
+                new_block.append(l.replace("acestream://", BASE_URL))
+            else:
+                new_block.append(l)
+                
         final_list.append({'block': new_block, 'prio': prio, 'num': num, 'g_key': g_key})
         active_groups.add(g_key)
 
@@ -130,4 +139,4 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for line in item['block']:
             f.write(line + "\n")
 
-print(f"Lista actualizada con IP {NEW_IP} y filtros aplicados.")
+print(f"Lista generada. Ahora los enlaces son: {BASE_URL}[ID]")
