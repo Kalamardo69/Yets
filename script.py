@@ -2,7 +2,7 @@ import requests
 import re
 import unicodedata
 
-SOURCE_URL = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
+SOURCE_URL = "https://ipfs.io/ipns/k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb/data/listas/lista_iptv.m3u"
 OUTPUT_FILE = "lista2.m3u"
 # La URL base que precede al ID
 BASE_URL = "http://192.168.18.41:6878/ace/getstream?id="
