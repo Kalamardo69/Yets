@@ -92,11 +92,7 @@ http://192.168.18.41:6878/ace/getstream?id=ee8ce83c44dc9b1e331672e2a0166e2830b00
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION FHD --> NEW ERA VI
 http://192.168.18.41:6878/ace/getstream?id=fc129b39c253b887563c3f0dce5fca7e699c3047
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=1f75d92098580443857caa95a719103cb83781b0
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=2c54a4def58f41fc0d2163450a63f12955b656aa
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=4636ed75106cb00e9c70cc2029edf0a4df7ad73f
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Logo_Primera_RFEF_2021.png/revision/latest?cb=20230620215900&path-prefix=es" tvg-id="Primera Federación" group-title="1RFEF", PRIMERA FEDERACIÓN FHD --> NEW ERA
 http://192.168.18.41:6878/ace/getstream?id=599a2fda91aa55703e2c5a51562d9dbf5d3d31d9
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 FHD --> NEW ERA
