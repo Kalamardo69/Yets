@@ -120,9 +120,9 @@ http://192.168.18.41:6878/ace/getstream?id=27d11bbeb3026231d52de16b1fac48da7a099
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=d719181097d256073844390b3e094fbcb1bceaa4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=0a81ba020d498aca1248e0591d8ffab99eb80bd4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
+http://192.168.18.41:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> NEW LOOP
 http://192.168.18.41:6878/ace/getstream?id=d2087e61e8617208fd3992f460ee2edb9e05d95b
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> NEW LOOP
@@ -195,8 +195,6 @@ http://192.168.18.41:6878/ace/getstream?id=86262568aa72b956b06ac67b1c310a32248a0
 http://192.168.18.41:6878/ace/getstream?id=7e4f6eb38e0d5ef52b7f8b96eb80c1d8c87dad16
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=b46a524780cf0ac5e533491fe79389d6198acf2c
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=a9299052e9a16e5e2924e1fdd00b877c374f9e96
 #EXTINF:-1 tvg-logo="https://assets.laliga.com/assets/2023/07/13/medium/60e1502d7d6098162828bb002e98bdb4.png" tvg-id="GOL" group-title="DEPORTES", GOL PLAY FHD --> NEW ERA
 http://192.168.18.41:6878/ace/getstream?id=9fb99c40a2c45d5c5342b30626eb56140f980612
 #EXTINF:-1 tvg-logo="https://assets.laliga.com/assets/2023/07/13/medium/60e1502d7d6098162828bb002e98bdb4.png" tvg-id="GOL" group-title="DEPORTES", GOL PLAY FHD --> NEW ERA
