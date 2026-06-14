@@ -111,8 +111,8 @@ http://192.168.18.41:6878/ace/getstream?id=ee8ce83c44dc9b1e331672e2a0166e2830b00
 http://192.168.18.41:6878/ace/getstream?id=fc129b39c253b887563c3f0dce5fca7e699c3047
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=2c54a4def58f41fc0d2163450a63f12955b656aa
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8K0VrQV/hypermotion2.png" tvg-id="LaLiga TV Hypermotion 2" group-title="HYPERMOTION", HYPERMOTION 2 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=a5b9d834ad92bfb80fe01bf89cc20bd68be199fb
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
+http://192.168.18.41:6878/ace/getstream?id=e4cbd1a425120b1f44b523a55bd1a98c31cad9fe
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8K0VrQV/hypermotion2.png" tvg-id="LaLiga TV Hypermotion 2" group-title="HYPERMOTION", HYPERMOTION 2 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=e63fbcafbfc9bcb7e1cffa1d2eea97cc77f7a198
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Logo_Primera_RFEF_2021.png/revision/latest?cb=20230620215900&path-prefix=es" tvg-id="Primera Federación" group-title="1RFEF", PRIMERA FEDERACIÓN FHD --> NEW ERA
@@ -140,15 +140,15 @@ http://192.168.18.41:6878/ace/getstream?id=c21d60fa884b24f3cedcb1110b84ac2bcb0c2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 FHD --> NEW ERA VI
 http://192.168.18.41:6878/ace/getstream?id=724f9b252b11064e3f16220717fd52bd3a510b5f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=f16d68fa5ff64f3894a45062ca28e4e66f142c6a
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=20086a76248efe8d5230c15d41c69bae8fa6381c
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
+http://192.168.18.41:6878/ace/getstream?id=f16d68fa5ff64f3894a45062ca28e4e66f142c6a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
+http://192.168.18.41:6878/ace/getstream?id=f8b0eae8fda973cf426311541d1668aa592f0a8c
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=0a81ba020d498aca1248e0591d8ffab99eb80bd4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=f8b0eae8fda973cf426311541d1668aa592f0a8c
+http://192.168.18.41:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> NEW LOOP
 http://192.168.18.41:6878/ace/getstream?id=d2087e61e8617208fd3992f460ee2edb9e05d95b
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 --> NEW LOOP
@@ -175,8 +175,6 @@ http://192.168.18.41:6878/ace/getstream?id=c015d37d1ead8155b1e7b97e743a1fe9850f0
 http://192.168.18.41:6878/ace/getstream?id=7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES --> NEW ERA III
 http://192.168.18.41:6878/ace/getstream?id=af393f93814d03160d48d2730759593b7bea5b47
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=6e031aed136bf97d8667fcd5fc49c73256928281
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=cf5327fe9c962a29dfff3868f4349ff2b0b4662f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES --> ELCANO
@@ -266,8 +264,6 @@ http://192.168.18.41:6878/ace/getstream?id=62a5750be4d2218b1064f83afaac4770fd923
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" tvg-id="Eurosport 1 HD" group-title="EUROSPORT", EUROSPORT 1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=313213b3b99c0f7437f68c8ea5a7b2b6d7b8a153
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" tvg-id="Eurosport 1 HD" group-title="EUROSPORT", EUROSPORT 1 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=48a589dbeab3544662fafd79888aada7d834cfe9
-#EXTINF:-1 tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" tvg-id="Eurosport 1 HD" group-title="EUROSPORT", EUROSPORT 1 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=8522af51ae7189b12effabbb448dcb707195ce1a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" tvg-id="Eurosport 1 HD" group-title="EUROSPORT", EUROSPORT 1 --> NEW LOOP
 http://192.168.18.41:6878/ace/getstream?id=b7975e28c67ed7c5831b097944761623bd52baf5
@@ -280,7 +276,7 @@ http://192.168.18.41:6878/ace/getstream?id=32fcf8e1513049ef9f90d08ba9040fe34b01d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=7152d5f5fdb2184c88c2bb433d8b8f619cdc16b2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=3ebcfc00921a4a9307dec97e078f8dc12eee27e7
+http://192.168.18.41:6878/ace/getstream?id=c6180a86440004748e2abe34d6f31eed8a218a3a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 --> NEW LOOP
 http://192.168.18.41:6878/ace/getstream?id=ad45f432c8430a8ee8a4123be493a8445246b63d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 HD --> NEW LOOP
