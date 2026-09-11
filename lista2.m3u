@@ -123,8 +123,6 @@ http://192.168.18.41:6878/ace/getstream?id=1f75d92098580443857caa95a719103cb8378
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=2c54a4def58f41fc0d2163450a63f12955b656aa
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=4636ed75106cb00e9c70cc2029edf0a4df7ad73f
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", HYPERMOTION --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=e4cbd1a425120b1f44b523a55bd1a98c31cad9fe
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 FHD --> NEW ERA
 http://192.168.18.41:6878/ace/getstream?id=691739972eb3468cf16b25e84dafdeaa40dead6d
@@ -180,8 +178,6 @@ http://192.168.18.41:6878/ace/getstream?id=d65257bb934b73647374224fd62d836815804
 http://192.168.18.41:6878/ace/getstream?id=8b081c8afbd9beafc8c5fbf0115eb36eadb07a35
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 FHD --> NEW ERA
 http://192.168.18.41:6878/ace/getstream?id=fb2dd566824658eeab27aae19a01c09430f1a97d
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 --> ELCANO
-http://192.168.18.41:6878/ace/getstream?id=01ce89b571b6c89bc19ccaafc913d483ac65c61d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 --> ELCANO
 http://192.168.18.41:6878/ace/getstream?id=d60b8c154828cb990b7bb1570764b215bd979e74
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 --> NEW LOOP
